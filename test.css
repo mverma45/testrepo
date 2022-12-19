@@ -1,3 +1,27 @@
-.test{
+body{
+    background-color: #ffa500;
+}
+
+h1{
     text-align: center;
+    background-color: #ffa500;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#image img{
+    max-height: 25em;
+    max-width: 30em;
+}
+
+#textInside{
+    position: absolute;
+    top: 32em;
+    left: 37.2em;
+    font-size: 12px;
+    color: white;
 }
